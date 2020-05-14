@@ -1,0 +1,98 @@
+<html>
+<head>
+</head>
+<body>
+
+<div class="row">
+  <input type="text" name="result" style="padding:3%; background-color:#435665; color: white; border: #435665;"><br><br>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+    <button  onclick="updateresult(7)">7</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(8)">8</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(9)">9</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+    <button onclick="updateresult(4)">4</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(5)">5</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(6)">6</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3">
+    <button onclick="updateresult(1)">1</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(2)"> 2</button>
+  </div>
+
+  <div class="col-md-3">
+    <button onclick="updateresult(3)">3</button>
+  </div>
+</div>
+<button onclick="updateresult('+')">+</button>
+<button onclick="updateresult('-')">-</button>
+<button onclick="updateresult('*')">*</button>
+<button onclick="updateresult('/')">/</button><br><br>
+
+
+
+
+
+
+
+<button onclick="updateresult(0)">0</button><br>
+
+
+
+<button onclick="showresult()">=</button>
+<button onclick="clearinput()">C</button>
+
+</body>
+
+<script>
+
+
+
+function updateresult(a) {
+
+	//Getting the Value in INPUT text box with name result and appending it to its existing value;
+	document.getElementsByName('result')[0].value +=  a;
+}
+
+function showresult(){
+
+	//Getting the Value in INPUT text box with name result and assigning it to variable dd;
+	var dd = document.getElementsByName('result')[0].value;
+	//Evalauting the express dd
+	var cc = eval(dd)
+
+	//assigning the result stored in variable cc to result INPUT text box
+	document.getElementsByName('result')[0].value = cc;
+}
+
+
+function clearinput(){
+	//clearing inout by assigning the result Input box value to empty string
+	document.getElementsByName('result')[0].value = ""
+}
+</script>
+</html>

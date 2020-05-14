@@ -1,0 +1,51 @@
+.headingcolor{
+  background-color: rgba(88,184,70);
+  color:white;
+  width: 30%;
+  height: 90%;
+  border: 1px solid rgba(88,184,70);
+  margin-left: 40%;
+  border-radius: 5px;
+
+}
+
+.card{
+  width: 30%;
+  height: 90%;
+  border: 1px solid white ;
+  margin-left: 40%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.fields{
+  border-radius: 5px;
+  margin-left:30%;
+  margin-top: 10%;
+  height: 10%;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #EBEBEB;
+  background-color: #EBEBEB;
+  border-radius: 4px;
+}
+
+input::placeholder{
+  font-weight: bolder;
+  color: #77BD7F;
+}
+
+button{
+  background-color: rgba(88,184,70);
+  border: 2px solid rgba(88,184,70);
+  border-radius: 10px;
+  width: 50%;
+  font-size: 20px;
+  color: white;
+  margin-top: 4%;
+  margin-left: 27%;
+}

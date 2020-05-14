@@ -1,0 +1,101 @@
+
+.my-container {
+  position: relative;
+  overflow: hidden;
+  background-color: blue;
+}
+.my-container h3 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding-left: 45%;
+}
+.my-container img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.my-container p{
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding-left: 38%;
+  padding-bottom: 10%;
+}
+
+.card{
+  width: 30%;
+  height: 90%;
+  margin-left: 37%;
+  background-color: rgba(40,39,70);
+}
+
+.fontstyle{
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-top: 15%;
+  padding-left: 5%;
+}
+
+.fontst{
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.my-container input::placeholder{
+  position: relative;
+  z-index: 2;
+}
+
+.my-container input{
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.my-container select{
+  position: relative;
+  z-index: 2;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.labelStructure{
+  color: white;
+  padding-left: 30%;
+  padding-bottom: 10%;
+}
+
+.my-container textarea{
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 90%;
+  border-radius: 4px;
+  height: auto;
+}
+
+button{
+  background-color: #54B065;
+  border: 2px solid #54B065;
+  width: 80%;
+  z-index: 2;
+  font-size: 20px;
+  color: white;
+  margin-left: 10%;
+  opacity: 1;
+}
